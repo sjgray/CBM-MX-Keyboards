@@ -38,5 +38,5 @@ HISTORY
 KEYBOARD    DATE        PCB?   STATUS
 --------    ----        ----   ------
 B-V1-R1     2020-07-01  YES    Built and tested. Electrically working but requires pcb mounting hole modifications
-N-V1-R1     2020-12-17  YES    Awaiting Delivery
+N-V1-R1     2020-12-17  YES    Built and tested. Electrically working but does not fit in N keyboard case due to measurement error.
 B-V1-R2     2020-12-18  NO     Design phase. Smaller simplified PCB.
