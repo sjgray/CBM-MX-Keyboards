@@ -1591,7 +1591,7 @@ GROUND
 Text Notes 1025 6675 0    79   ~ 0
 KP = Keypad. SW numbers correspond to position in matrix. R/C match connector.
 Text Notes 8750 7100 0    118  ~ 24
-N-V1-R1
+N-V1-R2
 Text Notes 9425 925  0    118  ~ 24
 CONNECTORS
 Text Notes 575  7175 0    118  ~ 24
@@ -1699,8 +1699,6 @@ Text Notes 9075 1100 0    61   ~ 0
 GROUND
 Text Notes 9275 3500 0    61   ~ 0
 Two connectors for flexible\nmounting, or for connecting\na secondary keyboard or\njoystick board ;-)
-Text Notes 3875 7725 0    118  ~ 24
-2020-12-18
 Text GLabel 6425 2975 0    50   Input ~ 0
 XC3
 Text GLabel 6825 2975 2    50   Input ~ 0
@@ -1725,8 +1723,8 @@ Text GLabel 6425 4100 0    50   Input ~ 0
 XC67
 Text GLabel 6825 4100 2    50   Input ~ 0
 XR67
-Text Notes 3850 7525 0    118  ~ 24
-FIRST N-V1-R1 PCB Submitted
+Text Notes 3725 7350 0    79   ~ 16
+RELEASES:\n* N-V1-R1 PCB Submitted 2020-12-18\n* N-V1-R2 PCB Updated 2021-03-31 
 Text Notes 6225 4625 0    87   ~ 17
 SPACEBAR KEYS
 Wire Wire Line

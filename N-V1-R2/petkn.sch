@@ -112,8 +112,6 @@ Wire Wire Line
 Wire Wire Line
 	3650 1175 3650 1575
 Connection ~ 3650 1575
-Wire Wire Line
-	3650 1575 3650 2100
 $Comp
 L Switch:SW_Push SW6
 U 1 1 5EE57F19
@@ -234,17 +232,6 @@ Wire Wire Line
 	2525 2100 2525 2275
 Wire Wire Line
 	3550 2100 3550 2275
-$Comp
-L Switch:SW_Push SW13
-U 1 1 5EE76D8A
-P 3850 2100
-F 0 "SW13" H 3850 2385 50  0000 C CNN
-F 1 "NC" H 3850 2294 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3850 2300 50  0001 C CNN
-F 3 "~" H 3850 2300 50  0001 C CNN
-	1    3850 2100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4050 2100 4050 2275
 $Comp
@@ -293,14 +280,9 @@ Connection ~ 2125 2100
 Wire Wire Line
 	2125 2100 2125 2625
 Connection ~ 2650 2100
-Wire Wire Line
-	2650 2100 2650 2625
 Connection ~ 3150 2100
 Wire Wire Line
 	3150 2100 3150 2625
-Connection ~ 3650 2100
-Wire Wire Line
-	3650 2100 3650 2625
 Connection ~ 4150 2100
 Wire Wire Line
 	4150 2100 4150 2625
@@ -353,17 +335,6 @@ F 1 "KP \"2\"" H 2325 2819 50  0000 C CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2325 2825 50  0001 C CNN
 F 3 "~" H 2325 2825 50  0001 C CNN
 	1    2325 2625
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW19
-U 1 1 5EE7FE66
-P 2850 2625
-F 0 "SW19" H 2850 2910 50  0000 C CNN
-F 1 "NC" H 2850 2819 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2850 2825 50  0001 C CNN
-F 3 "~" H 2850 2825 50  0001 C CNN
-	1    2850 2625
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -441,9 +412,6 @@ Wire Wire Line
 Connection ~ 2125 2625
 Wire Wire Line
 	2125 2625 2125 3150
-Connection ~ 2650 2625
-Wire Wire Line
-	2650 2625 2650 3150
 Connection ~ 3150 2625
 Wire Wire Line
 	3150 2625 3150 3150
@@ -624,8 +592,6 @@ Wire Wire Line
 Wire Wire Line
 	3150 3150 3150 3675
 Wire Wire Line
-	2650 3150 2650 3675
-Wire Wire Line
 	2125 3150 2125 3675
 Wire Wire Line
 	1625 3150 1625 3675
@@ -651,17 +617,6 @@ F 1 "KP \"5\"" H 2325 3869 50  0000 C CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2325 3875 50  0001 C CNN
 F 3 "~" H 2325 3875 50  0001 C CNN
 	1    2325 3675
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW35
-U 1 1 5EEF89EB
-P 2850 3675
-F 0 "SW35" H 2850 3960 50  0000 C CNN
-F 1 "NC" H 2850 3869 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2850 3875 50  0001 C CNN
-F 3 "~" H 2850 3875 50  0001 C CNN
-	1    2850 3675
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -739,9 +694,6 @@ Wire Wire Line
 Connection ~ 2125 3675
 Wire Wire Line
 	2125 3675 2125 4200
-Connection ~ 2650 3675
-Wire Wire Line
-	2650 3675 2650 4200
 Connection ~ 3150 3675
 Wire Wire Line
 	3150 3675 3150 4200
@@ -797,17 +749,6 @@ F 1 "KP \"4\"" H 2325 4394 50  0000 C CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2325 4400 50  0001 C CNN
 F 3 "~" H 2325 4400 50  0001 C CNN
 	1    2325 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW43
-U 1 1 5EF1D9B0
-P 2850 4200
-F 0 "SW43" H 2850 4485 50  0000 C CNN
-F 1 "NC" H 2850 4394 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2850 4400 50  0001 C CNN
-F 3 "~" H 2850 4400 50  0001 C CNN
-	1    2850 4200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -922,17 +863,6 @@ F 1 "KP \"8\"" H 2325 4919 50  0000 C CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2325 4925 50  0001 C CNN
 F 3 "~" H 2325 4925 50  0001 C CNN
 	1    2325 4725
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW51
-U 1 1 5EF3BE66
-P 2850 4725
-F 0 "SW51" H 2850 5010 50  0000 C CNN
-F 1 "NC" H 2850 4919 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2850 4925 50  0001 C CNN
-F 3 "~" H 2850 4925 50  0001 C CNN
-	1    2850 4725
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1407,9 +1337,6 @@ Wire Wire Line
 Connection ~ 3150 4200
 Wire Wire Line
 	3150 4200 3150 4725
-Connection ~ 2650 4200
-Wire Wire Line
-	2650 4200 2650 4725
 Connection ~ 2125 4200
 Wire Wire Line
 	2125 4200 2125 4725
@@ -1420,9 +1347,6 @@ Connection ~ 1625 4725
 Connection ~ 2125 4725
 Wire Wire Line
 	2125 4725 2125 5250
-Connection ~ 2650 4725
-Wire Wire Line
-	2650 4725 2650 5250
 Connection ~ 3150 4725
 Wire Wire Line
 	3150 4725 3150 5250
@@ -1588,15 +1512,15 @@ Text Notes 10050 1200 0    61   ~ 0
 KEY
 Text Notes 9850 1100 0    61   ~ 0
 GROUND
-Text Notes 1025 6675 0    79   ~ 0
+Text Notes 1025 6900 0    79   ~ 0
 KP = Keypad. SW numbers correspond to position in matrix. R/C match connector.
 Text Notes 8750 7100 0    118  ~ 24
 N-V1-R2
 Text Notes 9425 925  0    118  ~ 24
 CONNECTORS
-Text Notes 575  7175 0    118  ~ 24
+Text Notes 575  7275 0    118  ~ 24
 PET/CBM "N" KEYBOARD
-Text Notes 600  7625 0    61   ~ 0
+Text Notes 600  7725 0    61   ~ 0
 Standard "N" layout with the following changes:\n- SPACEBAR now 6.25U. Two keys added beside it.\n- SHIFTLOCK is configurable\n- Jumpers to make extra keys work as SPACEBAR or Alternate\n
 Text Notes 8700 6425 0    118  ~ 0
 R4: 1U x 14\nR3: 1.5U, 1U x 13\nR2: 1.5U, 1U x 11, 1.5U\nR1: 2U, 1U x 10, 2U\nR1: 9U (spacebar)\n* Bottom 2 Rows have\n   same profile on modern\n   keycaps
@@ -1639,11 +1563,11 @@ R1
 Text GLabel 1175 1750 0    50   Input ~ 0
 R10
 Text Notes 6200 1275 0    87   ~ 17
-SHIFT-LOCK
+SHIFT-LOCK / SWITCH51
 Text Notes 6200 1475 0    61   ~ 0
-Locking MX switches are hard to get,\nbut If you have one it can be used.\n
+Locking MX switches are hard to get, but if you have\none it can be used, or it can be jumpered for SW51.\n
 Text Notes 8125 1925 0    61   ~ 0
-<- SHIFT-LOCK\n\n<- ALT
+<- SHIFT-LOCK\n\n<- ALT (SW51)
 $Comp
 L Connector_Generic:Conn_01x20 J4
 U 1 1 5EFDDEB0
@@ -1723,7 +1647,7 @@ Text GLabel 6425 4100 0    50   Input ~ 0
 XC67
 Text GLabel 6825 4100 2    50   Input ~ 0
 XR67
-Text Notes 3725 7350 0    79   ~ 16
+Text Notes 3725 7450 0    79   ~ 16
 RELEASES:\n* N-V1-R1 PCB Submitted 2020-12-18\n* N-V1-R2 PCB Updated 2021-03-31 
 Text Notes 6225 4625 0    87   ~ 17
 SPACEBAR KEYS
@@ -1853,4 +1777,22 @@ F 3 "~" H 6625 4300 50  0001 C CNN
 	1    6625 4100
 	1    0    0    -1  
 $EndComp
+Text Notes 1625 6750 0    189  ~ 38
+C8 C7 C6 C5 C4 C3 C2 C1
+Text Notes 5900 6450 1    193  ~ 39
+R1 R2 R3 R4 R5 R6 R7 R8 R9 R10
+Text Notes 2725 1625 0    87   ~ 17
+N/C\n$10
+Text Notes 2725 5775 0    87   ~ 17
+N/C\n$0A
+Wire Wire Line
+	2650 2100 2650 3150
+Wire Wire Line
+	2650 3150 2650 5250
+Wire Wire Line
+	3650 1575 3650 2625
+Text Notes 5200 2250 0    87   ~ 17
+LOCK
+Text Notes 2725 4775 0    87   ~ 17
+N/C\nALT
 $EndSCHEMATC
