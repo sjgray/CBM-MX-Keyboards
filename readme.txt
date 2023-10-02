@@ -14,22 +14,35 @@ Keyboards are identified by a string in the following format:
 KB-Vn-Rn
 
 where: KB is the keyboard name
-       Vn is the version#
-       Rn is the revision#
+       Vn is the version#. This is a unique design/layout of a specific keyboard.
+       Rn is the revision#. Generally updates to a specific keyboard version.
 
-So, for example:
+ So, take the PET "B" keyboard. V1-R1 is the first design using pcb cutouts to allow the
+keyboard to be mounted higher. When this was awkward a R2 revision was done to eliminate
+the cutouts and reduce the pcb size. However this requires a 3D printed bracket to mount
+it. Since both keyboards use the same switch and keycap layout both are V1. If a new
+version is designed that say uses a different sized spacebar or has significant changes
+then a V2 would be made. With the CLCD keyboard there are two versions. V1 has a layout
+using the diamond arrow cursor keys. A V2 version instead uses an inverted-T cursor layout.
 
-       "B-V1-N1" is the PET/CBM "B" (Business) keyboard, Version 1, Revision 1
-       "N-V1-N2" is the PET/CBM "N" (Normal/Graphic) keyboard, Version1 , Revision 1
+Examples:
 
-Planned Keyboard Names:
+       "B-V1-R1" is the PET/CBM "B" (Business) keyboard, Version 1, Revision 1
+       "N-V1-R2" is the PET/CBM "N" (Normal/Graphic) keyboard, Version1 , Revision 2
+
+Keyboards In Development:
 
 	N    = PET/CBM Normal/Graphic Keyboard (4032)
 	B    = PET/CBM Business Keyboard (8032, SuperPET, 8296 etc)
 	CBM2 = B128, CBM128-80, 5x0, 6x0, 7x0,P500 etc
+	V364 = TED series prototype with numeric pad
+	CLCD = Laptop prototype
+	CSX  = C128+SX64 customizable design
+
+Planned:
 	C64  = VIC-20, C64, C16 etc
-	C128 = C128, C12D
 	C65  = C65 with cursor keys etc
+	B64  = PET "B" with C64-style layout
 
 
 STICKERS
@@ -38,6 +51,13 @@ STICKERS
  Artwork for labelling keycaps is in the STICKERS folder, since that is the most likely
 way to label the keys. However, stickers is not the only possibility... see webpage for
 more details.
+
+
+SCANS
+=====
+
+  Original kecap scans are in the SCANS folder. These are scanned with a flatbed scanner,
+either the entire keyboard (stiched if required) or individual keycap top and front.
 
 
 WEBPAGE
@@ -59,4 +79,5 @@ N-V1-R1     2020-12-17  YES	Built and tested. Electrically working but does not 
 B-V1-R2     2020-12-18  NO	Design phase. Smaller simplified PCB.
 N/B         2021-02-10  -	Add keyboard labelling stickers for both N and B keyboards on one page.
 N-V1-R2     2021-03-31  -	Add Gerbers
-B-V1-R2	2023-03-21	YES	Built and tested.
+B-V1-R2     2023-03-21	YES	Built and tested.
+CSX-V1-R1   2023-09-01  YES	Testing...
