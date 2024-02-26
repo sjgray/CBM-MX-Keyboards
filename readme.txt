@@ -81,3 +81,6 @@ N/B         2021-02-10  -	Add keyboard labelling stickers for both N and B keybo
 N-V1-R2     2021-03-31  -	Add Gerbers
 B-V1-R2     2023-03-21	YES	Built and tested.
 CSX-V1-R1   2023-09-01  YES	Testing...
+CSX-V1-R1   2024-02-25  YES     Released. Built 3 configurations. Basic functionality is working but more work is needed to fully test.
+V364        2024-02-25  YES     Released. Built and tested.
+

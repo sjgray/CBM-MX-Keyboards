@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Keyboard-V364)(type KiCad)(uri ${KIPRJMOD}/Keyboard-V364.pretty)(options "")(descr ""))
+)
