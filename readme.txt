@@ -66,7 +66,7 @@ WEBPAGE
 For more information please visit the project webpage.
 Comments and feedback are welcome!
 
-http://www.6502.org/users/sjgray/projects/mxkeyboards/index.html
+http://www.cbmsteve.ca/mxkeyboards/index.html
 
 
 HISTORY
@@ -76,11 +76,9 @@ KEYBOARD    DATE        PCB?	STATUS
 --------    ----        ----	------
 B-V1-R1     2020-07-01  YES	Built and tested. Electrically working but requires pcb mounting hole modifications
 N-V1-R1     2020-12-17  YES	Built and tested. Electrically working but does not fit in N keyboard case due to measurement error.
-B-V1-R2     2020-12-18  NO	Design phase. Smaller simplified PCB.
 N/B         2021-02-10  -	Add keyboard labelling stickers for both N and B keyboards on one page.
 N-V1-R2     2021-03-31  -	Add Gerbers
-B-V1-R2     2023-03-21	YES	Built and tested.
+B-V1-R2     2023-03-21	YES	Released. Built and tested.
 CSX-V1-R1   2023-09-01  YES	Testing...
 CSX-V1-R1   2024-02-25  YES     Released. Built 3 configurations. Basic functionality is working but more work is needed to fully test.
 V364        2024-02-25  YES     Released. Built and tested.
-
