@@ -56,8 +56,8 @@ more details.
 SCANS
 =====
 
-  Original kecap scans are in the SCANS folder. These are scanned with a flatbed scanner,
-either the entire keyboard (stiched if required) or individual keycap top and front.
+  Original keycap scans are in the SCANS folder. These are scanned with a flatbed scanner,
+either the entire keyboard (stitched if required) or individual keycap top and front.
 
 
 WEBPAGE
