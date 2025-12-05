@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MX-Switch-Hybrid-SJG")(type "KiCad")(uri "${KIPRJMOD}/MX-Switch-Hybrid-SJG.pretty")(options "")(descr ""))
+)
